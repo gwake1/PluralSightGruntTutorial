@@ -7,5 +7,5 @@ module.exports = function(grunt){
     }
   });
   grunt.loadNpmTasks("grunt-contrib-clean");
-  grunt.registerTasks("default", ['clean']);
+  grunt.registerTask("default", ['clean']);
 }
